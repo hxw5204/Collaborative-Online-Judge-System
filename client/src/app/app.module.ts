@@ -8,6 +8,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NewProblemComponent } from './components/new-problem/new-problem.component';
 import { ProblemDetailComponent } from './components/problem-detail/problem-detail.component';
 import { ProblemListComponent } from './components/problem-list/problem-list.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProblemListComponent } from './components/problem-list/problem-list.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
