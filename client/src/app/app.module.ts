@@ -10,6 +10,7 @@ import { ProblemDetailComponent } from './components/problem-detail/problem-deta
 import { ProblemListComponent } from './components/problem-list/problem-list.component';
 import {FormsModule} from "@angular/forms";
 
+import {routing} from'./app-routing.module'
 @NgModule({
   declarations: [
     AppComponent,
