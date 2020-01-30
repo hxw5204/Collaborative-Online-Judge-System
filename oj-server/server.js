@@ -26,7 +26,7 @@ app.use((req, res) => {
 });
 // find the MongoDB URL from the deployment we just created in mLab, replace the username and password
 // we should put username and password to a separate service
-mongoose.connect('mongodb://lb:lb@ds139929.mlab.com:39929/test-db');
+mongoose.connect('mongodb://localhost:27017/col', {useNewUrlParser: true});
 
 // launch application, listen on port 3000
 //app.listen(3000, () => console.log('Example app listening on port 3000!'));
